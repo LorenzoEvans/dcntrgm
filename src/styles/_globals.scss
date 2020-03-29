@@ -1,5 +1,7 @@
 @import 'variables';
 @import 'mixins';
+@import 'style';
+@import 'buttons';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet');
 html,
 body,
@@ -130,6 +132,30 @@ img {
 
 a {
   text-decoration: none;
+}
+
+// *** Custom Styling ** //
+
+a, a:focus, a:hover {
+  color:#fff;
+}
+
+html, body {
+  height: 100%; 
+  background-color:#F4F4FC;
+}
+body {
+  color:#3700FF;
+  text-align:center;
+}
+
+.hide { 
+  display: none;
+}
+
+.landing-heading {
+  font-family:'Source Code Pro', monospace; 
+  font-weight:400;
 }
 
 .nav-bar-text {

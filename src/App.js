@@ -12,12 +12,12 @@ const userSession = new UserSession({ appConfig: appConfig })
 export default class App extends Component {
 
 
-  handleSignIn(e) {
+  handleSignIn = (e) => {
     e.preventDefault();
     userSession.redirectToSignIn();
   }
 
-  handleSignOut(e) {
+  handleSignOut = (e) => {
     e.preventDefault();
     userSession.signUserOut(window.location.origin);
   }
@@ -25,6 +25,17 @@ export default class App extends Component {
   render() {
     return (
       <div className="site-wrapper">
+        <nav className="nav-wrapper flex-row-between">
+          <div>
+            DCNTRGM
+          </div>
+          <div>
+            About
+          </div>
+          <div>
+            FAQ
+          </div>
+        </nav>
         <div className="site-wrapper-inner">
           { !userSession.isUserSignedIn() ?
             <Signin userSession={userSession} handleSignIn={ this.handleSignIn } />

@@ -6,8 +6,8 @@ export default class Signin extends Component {
     const { handleSignIn } = this.props;
 
     return (
-      <div className="panel-landing" id="section-1">
-        <h1 className="landing-heading text-test">Hello, Blockstack!</h1>
+      <div >
+        <h1 className="landing-heading text-test">Welcome to DCNTRGM</h1>
         <p className="lead">
           <button
             className="btn btn-primary btn-lg"
