@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Profile from './Profile.js';
-import Signin from './Signin.js';
+import Profile from './components/Profile.js';
+import Signin from './components/Signin.js';
 import {
   UserSession,
   AppConfig
