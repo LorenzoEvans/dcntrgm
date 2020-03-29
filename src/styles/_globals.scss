@@ -159,7 +159,7 @@ body {
 }
 
 .nav-bar-text {
-  font-size: 4rem;
+  font-size: #{$nav-text};
 }
 
 .bg-primary {
@@ -170,6 +170,9 @@ body {
   width: 20%;
 }
 
+.full-width {
+  width: #{$full-width};
+}
 .text-primary {
   color: #{$text-on-prim};
 }

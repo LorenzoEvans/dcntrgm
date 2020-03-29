@@ -1,0 +1,6 @@
+@import './styles/globals';
+@import './styles/mixins.scss';
+
+.flex-row-between {
+  @include flex-row(row, justify-between);
+}

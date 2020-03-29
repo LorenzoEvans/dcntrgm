@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Profile from './components/Profile.js';
 import Signin from './components/Signin.js';
+import './App.scss';
+
 import {
   UserSession,
   AppConfig
@@ -25,15 +27,19 @@ export default class App extends Component {
   render() {
     return (
       <div className="site-wrapper">
-        <nav className="nav-wrapper flex-row-between">
-          <div>
-            DCNTRGM
-          </div>
-          <div>
-            About
-          </div>
-          <div>
-            FAQ
+        <nav >
+          <div className="nav-wrapper flex-row-between">
+            <ul className="full-width">
+              <li className="nav-bar-text">
+                DCNTRGM
+              </li>
+              <li className="nav-bar-text">
+                About
+              </li>
+              <li className="nav-bar-text">
+                FAQ
+              </li>
+            </ul>
           </div>
         </nav>
         <div className="site-wrapper-inner">
