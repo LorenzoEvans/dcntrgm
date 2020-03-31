@@ -1,95 +1,8 @@
 @import 'mixins';
-@import 'style';
 @import 'buttons';
 @import 'variables';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+@import 'style';
 
 /* HTML5 display-role reset for older browsers */
 
@@ -98,9 +11,9 @@ video {
   margin: 0 auto;
 }
 
-html {
+html, body {
   font-size: 62.5%;
-  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
 }
 
 h1 {
@@ -148,13 +61,6 @@ a, a:focus, a:hover {
   text-align: center;
 }
 
-html, body {
-  height: 100%; 
-  background-color:#F4F4FC;
-}
-body {
-  height: 100vh;
-}
 
 .hide { 
   display: none;
@@ -272,4 +178,8 @@ nav {
 
 .no-deco {
   text-decoration: none;
+}
+
+#root {
+  height: 100vh;
 }
