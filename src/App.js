@@ -29,8 +29,8 @@ export default class App extends Component {
     return (
       <div className="site-wrapper primary-color full-vh">
         <nav className="h-20-pc">
-          <div className="nav-wrapper primary-dark">
-            <ul className="full-width flexrow-around-align-center">
+          <div className="nav-wrapper">
+            <ul className="full-width flexrow-around-align-center full-height">
               <li className="site-name site-name-shadow lttr-spacing">
                 DCNTRGM
               </li>
@@ -44,6 +44,13 @@ export default class App extends Component {
                 FAQ
                 </a>
               </li>
+              <button
+            className="btn btn-outline-light no-deco"
+            // id="signin-button"
+            onClick={ this.handleSignIn}
+          >
+            Sign In with Blockstack
+          </button>
             </ul>
           </div>
         </nav>
