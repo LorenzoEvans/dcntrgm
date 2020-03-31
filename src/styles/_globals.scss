@@ -1,7 +1,7 @@
-@import 'variables';
 @import 'mixins';
 @import 'style';
 @import 'buttons';
+@import 'variables';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet');
 html,
 body,
@@ -140,13 +140,16 @@ a, a:focus, a:hover {
   color:#fff;
 }
 
+.center-text {
+  text-align: center;
+}
+
 html, body {
   height: 100%; 
   background-color:#F4F4FC;
 }
 body {
-  color:#3700FF;
-  text-align:center;
+  height: 100vh;
 }
 
 .hide { 
@@ -160,9 +163,16 @@ body {
 
 .nav-bar-text {
   font-size: #{$nav-text};
+  color: #{$text-on-prim};
+  border: 2px solid black;
+  border-radius: 2px 2px 2px 2px;
 }
 
 .bg-primary {
+  background-color: #{$primary-color};
+}
+
+.primary-color {
   background-color: #{$primary-color};
 }
 
@@ -181,6 +191,7 @@ body {
   background-color: #{$primary-dark};
 }
 
+
 .flex-row-between {
   @include flex-row(row, space-evenly);
 }
@@ -197,6 +208,13 @@ body {
   justify-content: space-between;
 }
 
+.flexrow-around-align-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .test-sass {
   color: $primary-color;
   // background: $secondary-dark;
@@ -211,4 +229,8 @@ body {
 .blockstack-sign-in {
   height: 3em;
   border-radius: 2px;
+}
+
+.full-vh {
+  height: 100vh;
 }

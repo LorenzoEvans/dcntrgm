@@ -26,18 +26,22 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="site-wrapper">
+      <div className="site-wrapper primary-color full-vh">
         <nav >
-          <div className="nav-wrapper flex-row-between">
-            <ul className="full-width">
-              <li className="nav-bar-text">
+          <div className="nav-wrapper primary-dark">
+            <ul className="full-width flexrow-around-align-center">
+              <li className="site-name">
                 DCNTRGM
               </li>
-              <li className="nav-bar-text">
+              <li>
+                <a className="nav-bar-text" href="/about">
                 About
+                </a>
               </li>
-              <li className="nav-bar-text">
+              <li>
+                <a className="nav-bar-text" href="/FAQ">
                 FAQ
+                </a>
               </li>
             </ul>
           </div>
