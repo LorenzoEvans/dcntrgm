@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Profile from './components/Profile.js';
 import Signin from './components/Signin.js';
+import { Route, Link } from 'react-router-dom';
 import './App.scss';
 
 import {
@@ -27,10 +28,10 @@ export default class App extends Component {
   render() {
     return (
       <div className="site-wrapper primary-color full-vh">
-        <nav >
+        <nav className="h-20-pc">
           <div className="nav-wrapper primary-dark">
             <ul className="full-width flexrow-around-align-center">
-              <li className="site-name">
+              <li className="site-name site-name-shadow lttr-spacing">
                 DCNTRGM
               </li>
               <li>

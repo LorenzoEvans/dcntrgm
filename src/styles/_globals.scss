@@ -75,7 +75,6 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 output,
 ruby,
 section,
@@ -168,6 +167,10 @@ body {
   border-radius: 2px 2px 2px 2px;
 }
 
+nav {
+  height: 20%;
+}
+
 .bg-primary {
   background-color: #{$primary-color};
 }
@@ -222,8 +225,10 @@ body {
 }
 
 .site-name {
-  font-size: 4rem;
-  color: #{$secondary-light}
+  width: 33%;
+  font-size: 5rem;
+  color: black;
+  box-shadow: -5px 5px 0px 0px #289FED, -10px 10px 0px 0px #5FB8FF, -15px 15px 10px 0px #bdbdbd;
 }
 
 .blockstack-sign-in {
@@ -233,4 +238,17 @@ body {
 
 .full-vh {
   height: 100vh;
+}
+
+.site-name-shadow {
+  text-shadow: -5px 10px 0px #bdbdbd, -10px 20px 0px #ede7f6, -15px 30px 0px #bbb5c3;
+  color: #FFFFFF;
+}
+
+.nav-wrapper {
+  height: 20%;
+}
+
+.lttr-spacing {
+  letter-spacing: 10px;
 }
