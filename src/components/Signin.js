@@ -6,7 +6,7 @@ export default class Signin extends Component {
     const { handleSignIn } = this.props;
 
     return (
-      <div className="jumbotron landing-heading center">
+      <div className="landing-heading center">
       Welcome to DCNTRGM
       </div>
     );

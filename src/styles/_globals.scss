@@ -4,16 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet');
 @import 'style';
 
-/* HTML5 display-role reset for older browsers */
+// /* HTML5 display-role reset for older browsers */
 
 * {
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
-html, body {
-  font-size: 62.5%;
-  height: 100vh;
+html {
+//   font-size: 62.5%;
+//   height: 100vh;
+//   margin: 0;
+  border: 2px solid red;
 }
 
 h1 {
@@ -46,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-// *** Custom Styling ** //
+// // *** Custom Styling ** //
 
 a, div {
   font-family: "Titillium Web";
@@ -62,9 +63,9 @@ a, a:focus, a:hover {
 }
 
 
-.hide { 
-  display: none;
-}
+// .hide { 
+//   display: none;
+// }
 
 .landing-heading {
   font-family: "Titillium Web";
@@ -79,7 +80,7 @@ a, a:focus, a:hover {
 }
 
 nav {
-  height: 20%;
+  height: 25%;
 }
 
 .bg-primary {
@@ -134,11 +135,11 @@ nav {
   }
 }
 
-.test-sass {
-  color: $primary-color;
-  // background: $secondary-dark;
-  background-color: #{$primary-color};
-}
+// .test-sass {
+//   color: $primary-color;
+//   // background: $secondary-dark;
+//   background-color: #{$primary-color};
+// }
 
 .site-name {
   width: 40%;
@@ -154,9 +155,9 @@ nav {
   border-radius: 2px;
 }
 
-.full-vh {
-  height: 100vh;
-}
+// .full-vh {
+//   height: 100vh;
+// }
 
 .site-name-shadow {
   text-shadow: -40px 32px 0px #bdbdbd, -80px 62px 0px #ede7f6, -120px 92px 0px #efefef;
@@ -176,10 +177,6 @@ nav {
   height: 100%;
 }
 
-.no-deco {
-  text-decoration: none;
-}
-
-#root {
-  height: 100vh;
-}
+// #root {
+//   height: 100vh;
+// }

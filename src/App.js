@@ -28,7 +28,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="primary-color full-vh">
-        <nav className="h-20-pc">
+        <nav >
           <div className="nav-wrapper">
             <ul className="full-width flexrow-around-align-center full-height">
               <li className="site-name site-name-shadow lttr-spacing">
