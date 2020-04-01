@@ -30,7 +30,7 @@ export default class App extends Component {
       <div className="primary-color full-vh">
         <nav >
           <div className="nav-wrapper">
-            <ul className="full-width flexrow-around-align-center full-height">
+            <ul className="full-width flexrow-between-align-center full-height">
               <li className="site-name site-name-shadow lttr-spacing">
                 DCNTRGM
               </li>
