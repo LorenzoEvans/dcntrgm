@@ -107,15 +107,15 @@ nav {
 }
 
 
-.flex-row-between {
+.flex-row-even {
   @include flex-row(row, space-evenly);
 }
 
-.flex-row-even {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+// .flex-row-even {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+// }
 
 .flex-column-between {
   display: flex;
