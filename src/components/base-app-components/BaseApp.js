@@ -21,6 +21,11 @@ export default class BaseApp extends Component {
             */}
             <li className="tab nav-bar-text"><a href="#">Phototopics</a></li>
             <li className="tab nav-bar-text"><a href="#">Profile</a></li>
+            <button className="tab nav-bar-text btn btn-outline-light"
+                    onClick={handleSignOut}
+            >
+              Sign Out
+            </button>
           </ul>
         </div>
       </nav>

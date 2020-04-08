@@ -48,7 +48,7 @@ a {
 
 // // *** Custom Styling ** //
 
-a, div {
+a, div, h1 {
   font-family: "Titillium Web";
 }
 
@@ -193,4 +193,15 @@ nav {
 
 .w-30-pc {
   width: 30%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.constrain-width {
+  // width: 66%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }

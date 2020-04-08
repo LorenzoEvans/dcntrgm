@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Profile from './components/Profile.js';
 import Signin from './components/Signin.js';
 import BaseApp from './components/base-app-components/BaseApp';
-import { Route, Link } from 'react-router-dom';
+import { Route, Link, Switch } from 'react-router-dom';
 import './App.scss';
 
 import {
@@ -32,7 +32,11 @@ export default class App extends Component {
         <div className="site-wrapper-inner">
           { !userSession.isUserSignedIn() ?
             <Signin userSession={userSession} handleSignIn={ this.handleSignIn } />
-            : <BaseApp userSession={userSession} handleSignOut={ this.handleSignOut } />
+            : <Switch>
+                <Route exact path="/">
+                  <BaseApp userSession={userSession} handleSignOut={ this.handleSignOut } />
+                </Route>
+            </Switch>
           }
         </div>
       </div>

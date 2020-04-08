@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/sign-in.scss';
+
 export default class Signin extends Component {
 
   render() {
@@ -33,9 +34,14 @@ export default class Signin extends Component {
           </ul>
         </div>
       </nav>
-      <div className="landing-heading center">
-      Welcome to DCNTRGM
+      <div className="center">
+        <h1 className="display-4">Welcome To DCNTRGM</h1>
+        <p className="lead">
+          A space for phototopical, thoughtful, community based discussions.
+        </p>
       </div>
+        <hr className="my-4"/>
+
       </div>
     );
   }
