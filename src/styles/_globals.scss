@@ -3,6 +3,7 @@
 @import 'variables';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet');
 @import 'style';
+@import "~bootstrap/scss/bootstrap";
 
 // /* HTML5 display-role reset for older browsers */
 
@@ -61,7 +62,9 @@ a, a:focus, a:hover {
   text-align: center;
 }
 
-
+.bg-secondary {
+  background: #{$secondary-dark};
+}
 // .hide { 
 //   display: none;
 // }
