@@ -1,6 +1,9 @@
 import React, { Component, useState } from 'react';
 import '../styles/sign-in.scss';
-import Carousel from 'react-bootstrap/Carousel'
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 export default class Signin extends Component {
 
   render() {
@@ -34,34 +37,14 @@ export default class Signin extends Component {
           </ul>
         </div>
       </nav>
-      {/* <div className="center">
+      <div className="center">
         <h1 className="display-4">Welcome To DCNTRGM</h1>
         <p className="lead">
           A space for phototopical, thoughtful, community based discussions.
         </p>
-      </div> */}
+      </div>
         <hr className="my-4"/>
-      <Carousel className="text-on-prim border-test bg-secondary">
-        <Carousel.Item className="border-test nav-bar-text bg-primary">
-          <Carousel.Caption className="border-test nav-bar-text">
-            <h3 className="nav-bar-text">First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-         </Carousel.Caption>
-        </Carousel.Item>
-          <img className="d-block w-100" alt="A group of people talking." src="https://images.unsplash.com/photo-1562086780-1c95244efd6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"/>
-        <Carousel.Item>
-        <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-         </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" alt="A group of people talking." src="/assets/conversation-1.jpeg"/>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" alt="A group of people talking." src="/assets/conversation-1.jpeg"/>
-        </Carousel.Item>
-      </Carousel>
+
       </div>
     );
   }
