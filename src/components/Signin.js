@@ -43,12 +43,12 @@ export default class Signin extends Component {
         <hr className="my-4"/>
       <Carousel className="text-on-prim border-test bg-secondary">
         <Carousel.Item className="border-test nav-bar-text bg-primary">
-          hgfjfjh
           <Carousel.Caption className="border-test nav-bar-text">
             <h3 className="nav-bar-text">First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
          </Carousel.Caption>
         </Carousel.Item>
+          <img className="d-block w-100" alt="A group of people talking." src="https://images.unsplash.com/photo-1562086780-1c95244efd6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"/>
         <Carousel.Item>
         <Carousel.Caption>
             <h3>First slide label</h3>
