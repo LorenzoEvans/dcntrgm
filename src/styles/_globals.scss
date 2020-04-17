@@ -83,7 +83,7 @@ a, a:focus, a:hover {
 }
 
 nav {
-  height: 20%;
+  height: 33%;
   position: relative;
 }
 
@@ -100,7 +100,7 @@ nav {
 }
 
 .full-width {
-  width: #{$full-width};
+  width: 100%;
 }
 .text-primary {
   color: #{$text-on-prim};
@@ -140,7 +140,7 @@ nav {
 
 .site-name {
   width: 35%;
-  font-size: 2.5rem;
+  font-size: 3.7rem;
   color: black;
   height: 100%;
   box-sizing: border-box;
@@ -166,27 +166,20 @@ nav {
 .sn-shadow-micro {
   font-size: 1rem;
   text-shadow: -20px 12px 0px #bdbdbd, -40px 22px 1px #ede7f6, -60px 32px 2px #1f1c1c;
-  // text-shadow: -25px 40px 0px #bdbdbd, -50px 80px 0px #ede7f6, -80px 100px 0px #efefef;
   color: #FFFFFF;
   text-align: center;
 }
 
-// .nav-wrapper {
-//   height: 15%;
-//   width: 100%;
-// }
+
 
 .lttr-spacing {
   letter-spacing: 10px;
 }
 
 .full-height {
-  height: 90px;
+  height: 100%;
 }
 
-// #root {
-//   height: 100vh;
-// }
 
 
 
@@ -207,4 +200,25 @@ nav {
   align-items: center;
   align-self: center;
   align-content: center;
+}
+
+
+.container {
+  position: absolute;
+  text-align: center;
+  padding: none;
+}
+
+.bg-image {
+  background: url('https://images.unsplash.com/photo-1562087477-ecddd8d5b321?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+  // background-size: cover;
+  // background-position: center;
+  // background-attachment: fixed;
+}
+
+.container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
